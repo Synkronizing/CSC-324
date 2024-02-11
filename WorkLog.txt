@@ -13,3 +13,9 @@ Download csv file and learn to read and display data to table.
 
 2/3/2024   30 min
 Start understanding tidyr on dataset and its ability to change layout of dataset and to fill missing data.s
+
+2/7/2024 50 min
+Read how to create QR codes to get to project github repository website and begin making data visualizations of college data
+
+2/11/2024 40 min
+Work to stylize visualizations for better display and legibility

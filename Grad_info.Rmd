@@ -1,0 +1,47 @@
+---
+title: "College Graduation Correlation"
+author: "Josh Sutton"
+date: "2024-02-11"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+library(tidyr)
+library(dplyr)
+library(magrittr)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## College Selected Info Table
+```{r}
+unis <- read.csv("College_Data.csv") %>% 
+  select(X,Private, Accept, Enroll, Top10perc,Grad.Rate) %>% 
+  rename(College = X) %>% 
+  arrange(Grad.Rate)
+head(unis,15)
+```
+
+\newpage
+
+## College Modified Info Table with Tibble
+```{r}
+unisTibble <- read.csv("College_Data.csv")  %>%
+  mutate(Enroll.Rate = (Enroll / Accept)*100) %>% 
+  mutate(Accept.Rate = (Accept / Apps)*100) %>% 
+  select(X, Private, Apps, Accept.Rate, Enroll.Rate, Grad.Rate)
+as_tibble(unisTibble)
+
+```
+## Scatter plot display
+```{r}
+## working on getting a legend for graph
+unisTibble %>% filter(Private=='Yes') %>%
+  ggplot(aes(Enroll.Rate, Grad.Rate)) + 
+  geom_point(color="#f05c26", size=2) + 
+  ggnewscale::new_scale_color() +
+  geom_point(data= filter(unisTibble, Private=='No'),aes(),size=2,color="#5451e8") + 
+  xlab("Enrollment Rate") + ylab("Graduation Rate") + 
+  ggtitle("Enrollment vs. Graduation Rates of private and public colleges")
+```
+
