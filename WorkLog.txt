@@ -19,3 +19,9 @@ Read how to create QR codes to get to project github repository website and begi
 
 2/11/2024 40 min
 Work to stylize visualizations for better display and legibility
+
+2/12/2024 1.5 hour
+Work with visualization and how to display 777 objects or how to cut down on observations.
+
+2/13/2024 40 minutes
+Making scatterplots and bubble charts focusing on rates of enrollment, graduation, or acceptances of each college.
