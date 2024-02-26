@@ -25,3 +25,12 @@ Work with visualization and how to display 777 objects or how to cut down on obs
 
 2/13/2024 40 minutes
 Making scatterplots and bubble charts focusing on rates of enrollment, graduation, or acceptances of each college.
+
+2/18/2024 30 minutes
+Look through example documentation and organization of info
+
+2/20/2024 40 minutes
+Finish documentation of college data set and create into pdf.
+
+2/25/2024 112 minutes
+Create reactive histogram of project data allowing to view selected variables and started displaying wordcloud with 2 possible limiters. Having trouble displaying wordcloud in app and displays in viewer.
