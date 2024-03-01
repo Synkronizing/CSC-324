@@ -34,7 +34,6 @@ unisMod <- read.csv("College_Data.csv")  %>%
   mutate(Accept.Rate = (Accept / Apps)*100) %>% 
   select(X, Private, Apps, Accept.Rate,Enroll, Enroll.Rate, Grad.Rate)
 as_tibble(unisMod)
-table(unisMod)
 ```
 
 \newpage
