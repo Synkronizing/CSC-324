@@ -34,3 +34,12 @@ Finish documentation of college data set and create into pdf.
 
 2/25/2024 112 minutes
 Create reactive histogram of project data allowing to view selected variables and started displaying wordcloud with 2 possible limiters. Having trouble displaying wordcloud in app and displays in viewer.
+
+2/26/2024 24 minutes
+Fix Wordcloud to display in app
+
+2/28/2024 45 minutes
+Add Bar Chart displaying top 10 of certain categories
+
+2/29/2024 62 minutes
+Figure out how to stylize side bar and add way to split histogram by private and public.
