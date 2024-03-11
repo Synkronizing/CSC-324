@@ -1,0 +1,42 @@
+Date,Time,Desc
+1/31,60,Download csv file and learn to read and display data to table.
+2/1,0,Rest Day
+2/2,0,Rest Day
+2/3,30,Start understanding tidyr on dataset and its ability to change layout of dataset and to fill missing data.s
+2/4,0,Rest Day
+2/5,0,Rest Day
+2/6,0,Rest Day
+2/7,50,Read how to create QR codes to get to project github repository website and begin making data visualizations of college data
+2/8,0,Rest Day
+2/9,0,Rest Day
+2/10,0,Rest Day
+2/11,40,Work to stylize visualizations for better display and legibility
+2/12,92,Work with visualization and how to display 777 objects or how to cut down on observations.
+2/13,40,"Making scatterplots and bubble charts focusing on rates of enrollment, graduation, or acceptances of each college."
+2/14,0,Rest Day
+2/15,0,Rest Day
+2/16,0,Rest Day
+2/17,0,Rest Day
+2/18,30,Look through example documentation and organization of info
+2/19,0,Rest Day
+2/20,40,Finish documentation of college data set and create into pdf.
+2/21,0,Rest Day
+2/22,0,Rest Day
+2/23,0,Rest Day
+2/24,0,Rest Day
+2/25,112,Create reactive histogram of project data to view selected variables and started displaying wordcloud with 2 possible limiters. 
+2/26,24,Fix Wordcloud to display in app
+2/27,0,Rest Day
+2/28,45,Add Bar Chart displaying top 10 of certain categories
+2/29,62,Figure out how to stylize side bar and add way to split histogram by private and p
+3/1,20,Planning how to display differences between public and private within bar chart and wordcloud.
+3/2,0,Rest Day
+3/3,35,Work on adding a topbar to allow for displaying between html project overview and visualizations
+3/4,0,Rest Day
+3/5,0,Rest Day
+3/6,0,Rest Day
+3/7,40,Addition of ggplotly 
+3/8,56,Try to found fix for wordcloud updatesliderinput issue and ggplotly label issue.
+3/9,0,Rest Day
+3/10,142,Finish project overview and documentation and time log display
+3/11,0,Presentation Day

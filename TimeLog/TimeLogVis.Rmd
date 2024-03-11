@@ -1,0 +1,29 @@
+---
+title: "TimeLog"
+author: "Josh Sutton"
+date: "2024-03-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(plotly)
+library(tidyr)
+library(dplyr)
+library(magrittr) 
+library(ggplot2)
+```
+
+```{r fig.height = 5, fig.width = 10}
+# Read the CSV file
+work <- read.csv("workLog.csv")
+
+# Convert Date column to Date type
+work$Date <- as.Date(work$Date, format = "%m/%d")
+
+# Create the bar chart
+ggplotly(
+ggplot(work, aes(x = Date, y = Time, text=Desc)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Date (MM/DD)", y = "Time (Minutes)", title="Work Log"))
+```
